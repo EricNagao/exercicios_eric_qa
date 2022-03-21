@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class execucao_exercicio01 {
     public static void main(String[] args) {
         
-        Exercicio01_instancia modelagem = new Exercicio01_instancia();
+        Exercicio01_instancia modelagem = new Exercicio01_instancia();  
         System.out.println(modelagem.qualNome);
 
         String nome = JOptionPane.showInputDialog("digite o nome do dog: ");
